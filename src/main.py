@@ -72,4 +72,4 @@ def delete_task(paramId):
     return Response(str, status = 200, mimetype = 'application/json')
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=80, debug=False)
+    app.run(host='0.0.0.0', port=80, debug=False)
